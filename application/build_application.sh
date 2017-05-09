@@ -8,7 +8,7 @@ i=1
 
 mkdir -p output
 
-while [ $i -lt 5 ]
+while [ $i -lt 6 ]
 do
   touch output/$i.txt
   i=$[$i+1]
